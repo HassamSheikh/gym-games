@@ -14,7 +14,7 @@ class BaseEnv(gym.Env):
     self.init(normalize, display, **kwargs)
     
   def init(self, normalize, display, **kwargs):
-    game_module_name = f'ple.games.{self.game_name.lower()}'
+    game_module_name = "ple.games.{}".format(self.game_name.lower())
     game_module = importlib.import_module(game_module_name)
     self.game = getattr(game_module, self.game_name)(**kwargs)
 
