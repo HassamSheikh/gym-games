@@ -8,7 +8,7 @@ setup(
   version='1.0.3',
   keywords=['AI', 'Reinforcement Learning', 'Games', 'Pygame', 'MinAtar'],
   description='This is a gym version of various games for reinforcenment learning.',
-  url='https://github.com/qlan3/gym-games',
+  url='https://github.com/HassamSheikh/gym-games',
   author='qlan3',
   author_email='qlan3@ualberta.ca',
   license='MIT',
